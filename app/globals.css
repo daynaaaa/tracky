@@ -3,7 +3,31 @@
 @tailwind utilities;
 
 .textGradient{
-  background: -webkit-linear-gradient(#ffddd2, #e29578);
+  background: -webkit-linear-gradient(#f87171, #fca5a5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.textGradient2{
+  background: -webkit-linear-gradient(#0d9488, #2dd4bf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.bglight {
+  background-color: #f0fdfa;
+}
+
+.bgmed {
+  background-color: #2dd4bf;
+}
+
+.bggrad1 {
+  background: linear-gradient(#b2dad9, #f0fdfa);
+	height:8vh;
+}
+
+.bggrad2 {
+  background: linear-gradient(#f0fdfa, #b2dad9);
 }

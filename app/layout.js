@@ -38,13 +38,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   const header = (
-    <header className="p-4 sm:p-8 flex items-center justify-between gap-4">
-      <h1 className={'text-base sm:text-lg textGradient ' + domine.className}>Tracky</h1>
+    <header className="p-4 sm:p-8 flex items-center justify-between gap-4 bggrad1">
+      <h1 className={'text-base sm:text-lg textGradient2 ' + domine.className}>Tracky</h1>
+      <div className="flex items-center justify-between"> placeloder cta || stats</div>
     </header>
   )
+
+
   const footer = (
-    <footer className="p-4 sm:p-8">
-      aaa
+    <footer className="p-4 sm:p-8 grid place-items-center bggrad2 ">
+      <p className={'text-teal-600 ' + quicksand.className}>footer</p>
     </footer>
   )
 
