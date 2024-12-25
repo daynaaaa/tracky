@@ -23,7 +23,7 @@ export default function Login() {
       placeholder='Email'/>
       <input className='w-full max-w-[400px] mx-auto px-3 duration-200 hover:border-teal-600 py-2 sm:py-3 border border-solid border-teal-500 rounded-full outline-none '
       placeholder='Password' type='password'/>
-      <div className='max-w-[400px] w-full mx-auto'>
+      <div className='max-w-[400px] w-full mx-auto shadow duration-200 hover:bg-teal-600 rounded-full'>
         <Button text="Submit" full/>
       </div>
       <p className={'text-center ' + quicksand.className}>Don&#39;t have an account? <span className='text-teal-600 '>Sign up</span></p>

@@ -22,7 +22,7 @@ export default function Hero() {
             </span>
         </h1>
         <p className='text-lg sm:text-xl md:text-2xl text-center w-full mx-auto '>
-            Organize and track your upcoming <span className='textGradient'>deadlines</span> and <span className='textGradient'>events</span> 🤩
+            Organize and track your upcoming <span className='textGradient'>assignments</span> and <span className='textGradient'>assessments</span> 🤩
         </p>
         <div className='grid grid-cols-2 gap-4 w-fit mx-auto'>
                 <Button text="Sign Up" />
